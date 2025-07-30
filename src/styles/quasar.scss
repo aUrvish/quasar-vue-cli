@@ -1,3 +1,30 @@
-@import './quasar.variables.scss';
-@import '~quasar-styl';
+@import "./quasar.variables.scss";
+@import "~quasar-styl";
 // @import '~quasar-addon-styl';
+
+:root {
+  --bg: #edeff1;
+  --bg-secondary: #e7e1cd;
+  --primary-color: #{$primary};
+  --secondary-color: #{$secondary};
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.page-toolbar {
+  background-color: var(--bg-secondary);
+}
+
+.page-back-btn .fa-left-long {
+  font-size: 16px !important;
+}
+
+.card-icon {
+  background-color: var(--bg-secondary);
+}
+
+.card-icon .fa-solid {
+  font-size: 18px;
+}
