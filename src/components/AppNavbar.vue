@@ -94,11 +94,6 @@ const dropdowns = ref([
   padding-bottom: 6px;
 }
 
-.toolbar-x {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 .announcement-caption {
   padding-top: 8px;
   padding-bottom: 8px;

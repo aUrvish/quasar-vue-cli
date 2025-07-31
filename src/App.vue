@@ -1,10 +1,10 @@
 <template>
-  <q-layout view="1Ff LpR fFf">
+  <q-layout view="1ff LpR fff">
     <Navbar />
     <Drawer />
 
     <q-page-container class="q-ml-lg">
-      <q-page class="q-pa-sm">
+      <q-page>
         <q-toolbar class="q-pa-sm justify-between page-toolbar">
           <q-btn
             round
@@ -22,11 +22,13 @@
         <Resources />
       </q-page>
     </q-page-container>
+    <Footer />
   </q-layout>
 </template>
 
 <script setup>
 import Navbar from "./components/AppNavbar.vue";
 import Drawer from "./components/AppDrawer.vue";
+import Footer from "./components/AppFooter.vue";
 import Resources from "./pages/ResourcesPage.vue";
 </script>

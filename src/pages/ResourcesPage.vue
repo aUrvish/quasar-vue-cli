@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-pr-lg">
     <q-card flat class="q-mt-lg q-pa-lg">
-      <div class="text-h6 q-mb-md text-weight-medium">Resources Overview</div>
+      <div class="text-h5 q-mb-md text-weight-bold">Resources Overview</div>
 
       <div class="row q-col-gutter-md q-mt-sm">
         <div
@@ -22,7 +22,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label class="text-dark text-body1 text-weight-bold">
+                <q-item-label class="text-dark text-h6 text-weight-bold">
                   {{ title }}
                 </q-item-label>
               </q-item-section>
@@ -38,7 +38,7 @@
               </p>
               <div class="q-mt-md">
                 <div class="q-px-none q-py-sm" v-for="i in 6" :key="i">
-                  <p class="text-body1">Lorem, ipsum dolor.</p>
+                  <p class="text-body2">Lorem, ipsum dolor.</p>
                   <q-separator v-show="i != 6" />
                 </div>
               </div>
